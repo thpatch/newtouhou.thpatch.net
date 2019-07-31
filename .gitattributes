@@ -1,0 +1,6 @@
+* text eol=lf
+.giattributes text
+*.html text
+CNAME text
+LICENSE text
+*.jpeg binary
