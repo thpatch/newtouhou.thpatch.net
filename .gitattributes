@@ -1,6 +1,7 @@
-* text eol=lf
-.giattributes text
+* text=auto eol=lf
+.gitattributes text
+.nojekyll text
 *.html text
 CNAME text
 LICENSE text
-*.jpeg binary
+*.png binary
