@@ -39,8 +39,8 @@
             var frames = document.getElementsByTagName('iframe')
             var url0 = frames[0].src
             var url1 = frames[1].src
-            var url1dark = url0.replaceAll('000','d9d8dc').replaceAll('fff','120c0e')
-            var url0dark = url1.replaceAll('000','d9d8dc').replaceAll('fff','120c0e')
+            var url0dark = url0.replaceAll('000','d9d8dc').replaceAll('fff','120c0e')
+            var url1dark = url1.replaceAll('000','d9d8dc').replaceAll('fff','120c0e')
             var mql = window.matchMedia('screen and (prefers-color-scheme: dark)')
             var fixcolorscheme = function(mql) {
                 if (mql.matches) {
